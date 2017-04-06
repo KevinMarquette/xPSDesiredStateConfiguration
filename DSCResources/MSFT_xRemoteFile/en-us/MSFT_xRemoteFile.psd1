@@ -12,8 +12,10 @@ ConvertFrom-StringData @'
     DownloadOutOfMemoryException=Invoking web request failed with OutOfMemoryException- Possible cause is the requested file being too big. {0}
     DownloadException=Invoking web request failed with error. {0}
     DownloadingURI=Downloading '{1}' to '{0}'.
-    CacheReflectsCurrentState=Cache reflects current state. No need for downloading file.
+    CacheReflectsCurrentState=Cache reflects current state.
+    SourceReflectsCurrentState=Source URI reflects current state. No need for downloading file.
     CacheIsEmptyOrNotMatchCurrentState=Cache is empty or it doesn't reflect current state. File will be downloaded.
+    SourceNotMatchCurrentState=Source URI doesn't reflect current state. File will be downloaded.
     MatchSourceFalse=MatchSource is false. No need for downloading file.
     CacheLookingForPath=Looking for cache path '{0}'.
     CacheNotFoundForPath=No cache found for DestinationPath '{0}' and Uri '{1}' CacheKey '{2}'.
